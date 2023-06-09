@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -54,6 +54,8 @@ h4 {
 
 img {
     width: 100%;
+    background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -136,8 +138,8 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     text-align: center;
 }
@@ -223,7 +225,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: #434888ab;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -284,7 +286,7 @@ html {
 /* Section */
 
 .section {
-    color: #fff;
+    color: whitesmoke;
     width: 55%;
     right: 10%;
     left: 35%;
@@ -295,25 +297,31 @@ html {
 }
 
 .section-heading {
-    text-align: center;
-    padding: 80px 45px;
+    text-align: left;
+    padding: 100px 55px;
+    margin-left: 0%;
 }
+.section-Educational-Qualifications{
+    text-align: left;
+    
 
+}
 .section-heading h2 {
+    text-align: left;
     font-size: 32px;
     font-weight: 700;
     color: #fff;
 }
 
-.section-heading .line-dec {
+/* .section-heading .line-dec {
     width: 60px;
     height: 3px;
     background-color: #a43f49;
     margin: 10px auto;
-}
+} */
 
 .section-heading span {
-    margin-top: 5px;
+    margin-top: 30px;
     font-size: 16px;
     color: #fff;
     letter-spacing: 0.5px;
@@ -668,7 +676,7 @@ section.contact-me {
     padding-left: 15px;
 }
 
-#contact textarea:focus {
+/* #contact textarea:focus {
     outline: none;
     box-shadow: none;
 }
@@ -688,7 +696,7 @@ section.contact-me {
         right: 5%;
         left: 30%;
     }
-}
+} */
 
 @media screen and (max-width: 1680px) and (min-width: 846px) { 
     .menu .social-network ul li a {
